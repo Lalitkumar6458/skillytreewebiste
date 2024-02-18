@@ -1,0 +1,137 @@
+.reviewSec{
+    padding: 0 4%;
+    margin-top: 80px;
+}
+.innerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.innerWrapper h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #5E5252;
+    text-transform: uppercase;
+}
+.innerWrapper h1 span{
+    color: var(--pink-dark);
+}
+.commentSec{
+
+    border-radius: 30px;
+    padding: 20px 50px;
+    position: relative;
+    background: #ffffff00;
+    backdrop-filter:blur(20px);
+    margin-top: 50px;
+
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+}
+.ImageBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ImageBox img{
+    width: 70px;
+    height: 70px;
+}
+.ImageReview{
+    position: absolute;
+    width: 100%;
+}
+.contentBox{
+    position: relative;
+    z-index: 10;
+}
+.ImageBox h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--black-text);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.EmailBox{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #828282;
+}
+.contentBox .descCls{
+    font-size: 1.2rem;
+    color: #272727;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 2rem;
+    position: relative;
+}
+
+.qouteIcon1{
+font-size: 2.4rem;
+color: #A7A7A7;
+position: absolute;
+top: -6px;
+    left: -25px;
+}
+.qouteIcon2{
+    font-size: 2.4rem;
+    color: #fff;
+    position: absolute;
+bottom: 0px;
+right: 0px;
+}
+.SlideDots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.SlideDots div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+.SlideDots .active{
+    background-color: var(--pink-dark);
+}
+.gradientCircle1,.gradientCircle2,.gradientCircle3,.gradientCircle4 {
+    background: linear-gradient(90deg, rgba(252,77,109,1) 26%, rgba(253,149,55,1) 100%);
+    border-radius: 50%;
+  position: absolute;
+}
+.gradientCircle1{
+width: 100px;
+height: 100px;
+left: -47px;
+top: 55px;
+}
+.gradientCircle2{
+   
+    width: 50px;
+    height: 50px;
+    bottom: -24px;
+  left: 80px;
+
+}
+.gradientCircle3{
+
+    width: 180px;
+    height: 180px;
+    right: -55px;
+    bottom: -93px;
+    z-index: -1;
+}
+.gradientCircle4{
+    width: 20px;
+    height: 20px;
+    right: 105px;
+    top: 79px;
+}
+.reviewCard{
+    position: relative;
+    width: 70%;
+}

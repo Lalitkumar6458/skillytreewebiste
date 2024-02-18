@@ -1,0 +1,113 @@
+.header{
+    height: 70px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: #fff;
+    z-index: 10;
+}
+.logo{
+    object-fit: contain;
+    height: auto;
+    width: auto;
+}
+.navbar{
+display: flex ;
+align-items: center;
+gap: 40px;
+font-size: 1.5rem;
+}
+.navbar ul {
+    display: flex ;
+    align-items: center; 
+    gap: 50px; 
+}
+.buttonSec{
+    display: flex ;
+    align-items: center; 
+    gap: 40px;
+}
+.loginBtn{
+    display: flex ;
+    align-items: center; 
+    gap: 5px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.activeLine{
+    height: 3px;
+    margin-top: 1px;
+    width: 27px;
+    background-color: var(--pink-dark);
+    border-radius: 5px;
+}
+.navbar ul li .active{
+font-weight: bold;
+color: var(--black-text);
+}
+.navbar ul li a{
+    font-weight: 500;
+    color: var(--header-Text);
+    text-transform: capitalize;
+}
+.searchIcon{
+    color: var(--header-Text);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.loginBtn{
+    color: var(--black-text);
+    font-weight: 600;
+}
+.buttonSec button{
+    background: linear-gradient(90deg, rgba(252,77,109,1) 26%, rgba(253,149,55,1) 100%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.57rem;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.SearchBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.SearchBox .menuIcon{
+    font-size: 4rem;
+    color: #000;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.SearchInput{
+    border: 2px solid #C8C8C8;
+    width: 100%;
+    height: 35px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.SearchInput input{
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+    color: #C8C8C8;
+}
+.SearchInput .searchIcon{
+margin-left: 5px;
+}
+.SearchInput input::placeholder{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #C8C8C8;
+}

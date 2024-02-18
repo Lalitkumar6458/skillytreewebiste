@@ -1,0 +1,75 @@
+.FooterSec{
+    padding: 0 4%;
+    display: flex;
+
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+.GridChild{
+    width: 33%;
+}
+.linkSec{
+    /* display: flex; */
+  border-left: 1px solid #000;
+  padding-left: 90px;
+
+}
+.ProductLink,.companyLink{
+    width: 50%;
+}
+.GridChild h4{
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 700;
+}
+.GridChild h3{
+    color: #2F2F2F;
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin-top: 20px;
+}
+.GridChild p{
+font-size: 1.2rem;
+color: #000;
+margin-top: 10px;
+width: 90%;
+}
+.GridChild button{
+    background: linear-gradient(90deg, rgba(252,77,109,1) 26%, rgba(253,149,55,1) 100%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.57rem;
+    font-weight: 600;
+  height: 40px;
+  padding: 0 20px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.lineBetween{
+    height: 100%;
+    width: 1px;
+    background-color: #000;
+}
+.ProductLink h1,.companyLink h1{
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #2C2C2C;
+}
+.ProductLink ul,.companyLink ul {
+    margin-top: 15px;
+ 
+}
+.ProductLink ul li,.companyLink ul li {
+line-height: 20px;
+font-size: 1.4rem;
+font-weight: 500;
+}
+.BoxCss{
+    display: flex;
+}
+.footerEnd h4{
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
